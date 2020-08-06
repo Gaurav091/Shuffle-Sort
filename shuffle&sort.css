@@ -1,0 +1,134 @@
+body {
+	border: 10px solid black;
+	border-radius: 10px;
+}
+
+.deck {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.shuffleHead {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: darkslategray;
+	padding: 10px;
+}
+
+.card {
+	width: 81%;
+	margin-left: 20px;
+	margin-bottom: 4px;
+	border: none;
+}
+
+.btn {
+	display: inline;
+	border-bottom: 4px solid #2B8EAD;
+	padding: 9px 21px;
+	background: #72C3DC;
+	border-radius: 10px;
+}
+
+.card .value {
+	color: black;
+	font-size: 14pt;
+	font-weight: bolder;
+	padding: 8px;
+}
+
+div a {
+	text-decoration: none;
+	color: white;
+}
+
+.mainDiv {
+	display: inline-block;
+	background: #FFFFFF;
+	width: 100%;
+}
+
+.div2 {
+	margin: 17px 7px 22px;
+
+}
+
+.shuffleBy {
+	color: black;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		border: none;
+	}
+
+	.shuffleHead {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background: none;
+		padding: 0;
+		color: black;
+	}
+
+	.deck {
+		background: none;
+		/* color: white; */
+		width: 77%;
+		margin: 20px auto;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	.mainDiv {
+		width: 87%;
+		border-top: 4px solid #BFBFBF;
+		background-color: #EFEFEF;
+		position: relative;
+	}
+
+	.btn {
+		padding: 12px 44px;
+		border-bottom: 4px solid #2B8EAD;
+		margin-top: 10px;
+		display: block;
+	}
+
+	.div1 {
+		width: 75%;
+		display: inline-block;
+		margin-left: -11%;
+	}
+
+	.div2 {
+		float: right;
+		top: 17px;
+		padding: 0px;
+		margin: 8px 14px;
+	}
+
+	.card {
+		/* width: 81%; */
+		margin-left: 0px;
+		margin-bottom: 0px;
+		border: none;
+	}
+
+	.card .value {
+		font-size: 50pt;
+		font-family: sans-serif;
+		color: whitesmoke;
+
+	}
+
+	.card {
+		width: 26%;
+		border: solid 1px #808080;
+		background-color: white;
+		display: inline-block;
+		font-size: 14pt;
+		text-align: center;
+		color: black;
+
+	}
+}
